@@ -1,0 +1,84 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100;
+}
+
+a {
+    /* @apply text-blue-400; */
+}
+
+.flickity-prev-next-button {
+    /* width: 100px;
+    height: 100px; */
+    display: none;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+    background: #bee3f8;
+    outline: none;
+}
+
+/* Comments styles */
+
+.comment-body {
+    border-top-right-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+    border-bottom-left-radius: 1.3rem;
+}
+
+.comment-btn {
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 1.1rem;
+    border-bottom-right-radius: 1.1rem;
+    border-bottom-left-radius: 1.1rem;
+}
+
+.comment {
+    border-radius: 1rem;
+}
+
+.ashmif-content {
+    line-height: 1.5;
+}
+.ashmif-content * {
+    box-sizing: border-box;
+}
+.ashmif-content h1 {
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin: 0;
+}
+.ashmif-content blockquote {
+    margin: 0 0 0 0.3em;
+    padding: 0 0 0 0.6em;
+    border-left: 0.3em solid #ccc;
+}
+.ashmif-content pre {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-family: monospace;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0.5em;
+    white-space: pre;
+    background-color: #eee;
+    overflow-x: auto;
+}
+.ashmif-content ul,
+.ashmif-content ol,
+.ashmif-content li {
+    margin: 0;
+    padding: 0;
+}
+.ashmif-content ul li,
+.ashmif-content ol li,
+.ashmif-content li li {
+    margin-left: 1em;
+}
